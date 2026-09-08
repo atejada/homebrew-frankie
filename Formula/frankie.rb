@@ -1,8 +1,8 @@
 class Frankie < Formula
   desc "Terminal-native language stitched from Ruby, Python, R, and Fortran"
   homepage "https://github.com/atejada/Frankie"
-  url "https://github.com/atejada/Frankie/archive/refs/tags/v1.22.tar.gz"
-  sha256 "4706cff4715a70e6e2edbe0545b633e37ce727f5639c8da160ca27277ea2b451"   # see packaging/homebrew/README.md
+  url "https://github.com/atejada/Frankie/archive/refs/tags/v1.22.0.tar.gz"
+  sha256 "23883ed5e5230a384ac8370d56c8d770185dd8d3f1d3b40728348a0bdecaa4d7"
   license "GPL-3.0-only"
 
   depends_on "python@3.12"
@@ -25,6 +25,11 @@ class Frankie < Formula
 
       Standard stitches ship with the install; project-local ./stitches and
       ~/.frankie/stitches take precedence. Editor support: frankiec lsp
+
+      Bundled examples (Snake, Pong, Zombie Invaders, and more):
+        frankiec examples            # list them
+        frankiec examples snake      # copy one here, then: cd snake && frankiec run main.fk
+      They live in: #{opt_libexec}/examples
     EOS
   end
 
