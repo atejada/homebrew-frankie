@@ -1,8 +1,8 @@
 class Frankie < Formula
   desc "Terminal-native language stitched from Ruby, Python, R, and Fortran"
   homepage "https://github.com/atejada/Frankie"
-  url "https://github.com/atejada/Frankie/archive/refs/tags/v1.22.1.tar.gz"
-  sha256 "c9a27042a4821af036ac85bce5d645f4d43ba36c66354eaf5e8c09efb34d2a74"
+  url "https://github.com/atejada/Frankie/archive/refs/tags/v1.22.2.tar.gz"
+  sha256 "e16d07b1e377855fabc8da1845cb1ad371a18f336cd54443030e2877461af6aa"
   license "GPL-3.0-only"
 
   depends_on "python@3.12"
